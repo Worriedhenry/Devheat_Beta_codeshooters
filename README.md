@@ -1,4 +1,4 @@
-GDSC Problem Statment
+GDSC Problem Statement
 ******************************************************************************************
   Problem Statement 4: Avanish’s Prank
   Overview:
