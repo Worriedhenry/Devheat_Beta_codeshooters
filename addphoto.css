@@ -1,0 +1,23 @@
+.feedpost{
+    flex-direction:column;
+    justify-content: space-around;
+}
+.feed{
+    background-image: url(images/WhatsApp\ Image\ 2022-06-25\ at\ 3.58.04\ PM.jpeg);
+    width: 100%;
+}
+body{
+    background-image: url(heart.png);
+}
+.buttonmodification{
+    height:5vh ;
+    border: 0.1px;
+    border-radius: 5%;
+    margin-top: 0.5vw;
+    width: 18vw;
+}
+.appliednotice{
+    display: none;
+    background-color: rgba(175, 22, 22, 0.644);
+    color: white;
+}

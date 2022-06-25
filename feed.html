@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="feed.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="profile sa-center">
+        <div class="prodetails sb-center ">
+            <p style="font-size: 2vw; color:#c013a9 ;"><i><b>Flare</b></i></p>
+            <img src="images/heart.png" id="profileimage">
+            <div class="proname_username">
+                <p class="proname" id="proname">Full Name</p>
+                <p class="username" id="username">username</p>
+            </div>
+            <div class="profollow sa-center">
+                <div class="propost proname">
+                    <p class="text-center proname" id="noofpost">
+                        15
+                    </p>
+                    <p>
+                        Posts
+                    </p>
+                </div>
+                <div class="following">
+                    <p class="text-center">
+                        150k
+                    </p>
+                    <p>
+                        followers
+                    </p>
+                </div>
+                <div class="followers">
+                    <p class="text-center">
+                        910
+                    </p>
+                    <p>
+                        following
+                    </p>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="promenu ">
+            <p style="color:magenta ;">
+                <b>FEED</b>
+            </p>
+            <p>
+                Explore
+            </p>
+            <p>
+                Notification
+            </p>
+            <p>
+                Message
+            </p>
+            <p>
+                Direct
+            </p>
+            <p onclick="gotosetting()">
+                Settings
+            </p>
+        </div>
+        <hr>
+        <div id="prologout-tesr" onclick="logout()">Log out</div>
+    </div>
+    <div class="feed">
+        <div class="feedtop sb-center">
+            <input type="text" placeholder="Search.." id="feedsearch">
+            <div class="feedsidetop sb-center">
+               
+                <input type="button" onclick="addphoto()" value="Add photos">
+                <input type="button" onclick="deletephoto()" value="Delete Last Post">
+            </div>
+        </div>
+        <div class="feedstory">
+            <p class="feedstorylogo" style="color: white;">STORY</p>
+            <div class="stories sa-center">
+                <img src="images/Loginbackground.jpeg" id="profileimage">
+                <img src="images/loginback.jpeg" id="profileimage">
+                <img src="images/loginback3.jpeg" id="profileimage">
+                <img src="images/login back.jpg" id="profileimage">
+                <img src="images/loginback.jpeg" id="profileimage">
+                <img src="images/loginback.jpeg" id="profileimage">
+                <img src="images/Loginbackground.jpeg" id="profileimage">
+                <img src="images/loginback3.jpeg" id="profileimage">
+                <img src="images/Loginbackground.jpeg" id="profileimage">
+            </div>
+        </div>
+        <div class="feedpost center-center">
+            <div class="clo1" id="noofpostfinder">
+                
+            </div>
+        </div>
+    </div>
+    <script src="feed.js"></script>
+</body>
+
+</html>

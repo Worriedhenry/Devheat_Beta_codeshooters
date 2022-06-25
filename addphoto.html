@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="feed.css">
+    <link rel="stylesheet" href="addphoto.css">
+</head>
+
+<body>
+    <div class="feed">
+        <div class="feedtop sb-center ">
+            <button type="submit" class="buttonmodification"onclick="backtofeed()">Back to feed</button>
+            <div class="feedsidetop sb-center">
+                <input type="button" style="display:none;" value="Add photos">
+            </div>
+        </div>
+        
+        <div class="feedpost center-center">
+            <p style="font-size:5vh">Add photo</p>
+            <div class="selectphoto">
+                <p>Select photo</p>
+                <input type="file"class="buttonmodification"id="addedphoto">
+            </div>
+            <div id="photocaption">
+                <p>Add caption</p>
+                <input class="inputphotocaption buttonmodification"type="text" name="" id="newcaption">
+            </div>
+            <button type="submit" class="phototolocal buttonmodification "onclick="addphototolocal()">Add photo/caption</button>
+            <div class="appliednotice">Post added</div>
+        </div>
+    </div>
+    <script src="addphoto.js"></script>
+</body>
+
+</html>

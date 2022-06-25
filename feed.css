@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+.profile{
+    background-color: rgba(228, 228, 228, 0.877);
+    /* background-color: black;?? */
+    height: 97%;
+    width: 18%;
+    flex-direction: column;
+    /* padding-left: 2vw; */
+    padding: 0.5vh 0 1.8vh 0;
+    background-image: url(images/heart.png);
+    background-repeat: no-repeat;
+    /* position: fixed; */
+}
+html{
+    overflow: hidden;
+}
+.feed{
+    background-color:white;
+    width: 80%;
+    background-color: black;
+    padding-left: 3vw;
+    border-radius: 1%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    overflow: hidden;
+}
+.prologo{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-size: contain;
+}
+.prodetails{
+    height: 30vh;
+    width: 100%;
+    flex-direction: column;
+}
+.promenu{
+    height: 50vh;
+    width: 100%;
+    padding-left: 2.2vw;
+}
+#profileimage{
+    width: 4.5vw;
+    height: 9vh;
+    border-radius:50% ;
+    border-top:2px solid magenta;
+    border-left:2px solid red;
+    border-bottom:2px solid green;
+    border-right:2px solid blue;
+}
+.following{
+    padding: 0 0.7vw 0vw 0vw;
+    margin-left: 1.3vw;
+}
+.promenu{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.feedsidetop{
+    width: 20vw;
+    /* background-color: aqua; */
+}
+.feedtop{
+    padding-left: 0.6vw;
+    padding-right: 1vw;
+    height: 8vh;
+}
+#feedsearch{
+    border-radius: 5px;
+    width: 19vw;
+    height: 4vh;
+}
+.feedstory{
+    height: 18vh;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    
+}
+.feedpost{
+    height: 74vh;
+    /* background-color: aqua; */
+    /* flex-direction: column-reverse; */
+    overflow-y: scroll;
+}
+.clo1{
+    /* background-color: red; */
+    height: 98%;
+    width:80vw;
+    display: flex;
+    overflow-y: scroll;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.postimage{
+    width: 50vw;
+    border-radius: 10%;
+    height: auto;
+    border: 6px solid white;
+}
+.postimage2{
+    width: 0vw;
+    border-radius: 10%;
+    height: 50vh;
+}
+.postimages{
+    /* background-color: white; */
+    width: 75vw;
+    height:200vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.postdown{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: auto;
+    margin-bottom: 5vh;
+}
+.like-comment{
+background-color: white;
+width: 6vw;
+}
+.feedstorylogo{
+    width: 5vw;
+    /* background-color: blue; */
+    height: 4vh;
+    color: black;
+}
+.stories{
+    display: flex;
+    justify-content: space-between;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  .comments{
+    width: 95vw;
+    height: 100vh;
+    background-color: rgba(228, 228, 228, 0.877);
+    overflow-y: scroll;
+    display: none;
+  }
+  .caption{
+    width: 35vw;
+    height: auto;
+    font-size: 1.8vw;
+    /* background-color: aqua; */
+    border: 3px solid rgb(221, 18, 52);
+    margin-bottom: 5vw;
+    color: white;
+  }
+  .proname,.username{
+    text-align: center;
+  }
+.usernameincomment{
+    color: rgb(54, 51, 51);
+    font-size: 1.5vw;
+}
+.white{
+    color: white;
+}
+.sizeincrease{
+    font-size: 1.5vw;
+}
