@@ -1,4 +1,4 @@
-Problem Statment
+GDSC Problem Statment
 ******************************************************************************************
   Problem Statement 4: Avanish’s Prank
   Overview:
@@ -59,7 +59,7 @@ According to our uderstanding of problem the user i.e Dhruv in this case wants t
 1) To change your full name 
 2) Go to settings,enter your new name
 3) confirm change
-4) Nmae is updated
+4) Name is updated
 5) ![image](https://user-images.githubusercontent.com/107611121/175782891-96008dec-8659-46e3-bfcf-8bddbe386951.png)
 
 ***Changing Security answer ***
