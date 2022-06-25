@@ -33,8 +33,8 @@ According to our uderstanding of problem the user i.e Dhruv in this case wants t
 ***Adding posts***
 1) After signing in to add post click on Add Photos
 2) Choose the photo and caption
-3) Click on Add photo/text to add photo
-4) ![image](https://user-images.githubusercontent.com/107611121/175782819-2e6604ab-d19a-4554-9e5f-1fa1df98b0a8.png)
+![image](https://user-images.githubusercontent.com/107611121/175782819-2e6604ab-d19a-4554-9e5f-1fa1df98b0a8.png)
+3)Click on Add photo/text to add photo
 ![image](https://user-images.githubusercontent.com/107611121/175782851-e70d2f4d-de7e-4b63-a5fa-c6912f356e9a.png)
 
 
