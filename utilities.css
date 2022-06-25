@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Slab', serif;
+}
+.center-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sa-center{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sb-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    width: 80%;
+    color: rgb(248, 85, 112);
+    background-color: rgb(221, 18, 52);
+    height: 0.3vh;
+}
+.input{
+    height: 5vh;
+    width: 15vw;
+    border-radius: 30px;
+    border: 2px;
+    border-color: blue;
+}
+.transdabba{
+    position: fixed;
+    background-color: pink;
+    width: 50vw;
+    height: 75vh;
+    margin-top: 11vh;
+    opacity: 30%;
+    margin-left: 25vw;
+    border-radius: 20px;
+}
+.bg-image{
+    background-image: url(loginback.jpeg);
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  width: 100%;
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  position: fixed;
+ opacity: 20%;
+ /* background-repeat: no-repeat;  */
+ /* background-color: red; */
+}
+
+
+.text-center{
+    text-align: center;
+}
+.space{
+    height: 4vh;
+    width: 15vw;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="feed.css">
+    <link rel="stylesheet" href="setting.css">
+</head>
+<body class="bg">
+    <div class="feed">
+        <div class="feedtop sb-center">
+            <button type="submit"class="buttonmodification" onclick="backtofeed()">Back to feed</button>
+            <p class="setting textmodification">Setting</p>
+            <div class="feedsidetop sb-center">
+                <input type="button"class="buttonmodification" onclick="addphoto()" value="Add photos">
+            </div>
+        </div>
+        <div class="feedpost ">
+            <div class="appliednotice">Setting applied</div>
+            
+            <div class="editname textmodification"><p>Edit your Full name</p>
+            <input type="text" class="buttonmodification"  id="nameeditor" placeholder="Enter your new name">
+            <p><button type="submit"class="buttonmodification" onclick="changename(this)"> Edit</button></p>
+            </div>
+            <div class="editquestion">
+                <p class="textmodification">Edit your Security Answer</p>
+                <p><input type="text"class="buttonmodification"  id="anseditorold" placeholder="Enter your old answer"></p>
+                <input type="text" class="buttonmodification" id="anseditornew" placeholder="Enter your new answer">
+                <p><button type="submit"class="buttonmodification" onclick="changeans()">Edit</button></p>
+            </div>
+            <div class="editlimit"><p>Restrict reaction on post</p>
+                <p>This will restrict the no. of cooments made by any user(including you)</p>
+                <p>Use Restrict <input type="checkbox" onchange="displayres()" id="openrestriction" placeholder=""></p>
+                <div id="res">
+                    <input type="number" class="buttonmodification"name="" id="limit">
+                    <p><button type="submit"class="buttonmodification" onclick="settinglimit()"> Edit</button></p>
+                </div>
+            </div>
+        </div>
+        <div class="transdabba"></div>
+    </div>
+    <script src="setting.js"></script>
+</body>
+
+</html>

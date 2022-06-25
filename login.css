@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+/* Background image css */
+.bg-image{
+    background-image: url(images/loginback4.jpeg);
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+ position: fixed;
+
+}
+/* Loginbox css */
+.loginbox{
+ 
+    width: 40vw;
+    height: 71vh;
+    margin-top: 12vh;
+    margin-left: 30vw;
+    position: fixed;
+    opacity: 100%;
+    flex-direction: column;
+}
+/* Sign in details css */
+.signindetails{
+    flex-direction: column;
+    /* background-color: red; */
+    opacity: 100%;
+    width: 25vw;
+    height: 40vh;
+    /* display: none; */
+}
+/* Sign in button css */
+.signupin{
+    width: 25vw;
+}
+/* Sign in details css */
+#signinusername,#signinpassword{
+    height: 5vh;
+    width: 19vw;
+    border-radius: 20px;
+    border: 2px;
+    border-color: blue;
+}
+/* Sign up details css */
+.singupdetails{
+    /* background-color: brown; */
+    flex-direction: row;
+    height: 55vh;
+    display: none;
+}
+/* Sign in details css */
+.leftsingup,.rightsignup{
+    height: 50vh;
+    /* width:10vw ; */
+    /* background-color: green; */
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.middlegap{
+    width: 5vw;
+}
+.uppername{
+    display: flex;
+    flex-direction: column;
+}
+.detailname{
+    font-size: 16px;
+    color: white;
+
+}
+/* profile pic css */
+.pp{
+    width: 15vw;
+    padding-bottom: 0.5px;
+    padding-top: 8px;
+    background-color: white;
+    border-radius: 5%;
+}
+/* Logn button css */
+#loginbutton{
+    width: 6vw;
+    height: 4vh;
+    background-color: #d905ff;
+    border-radius: 15px;
+    border: 1px;
+}
+
+.signin{
+    color: white;
+    /* background-color: blue; */
+    padding-bottom: 1vh;
+    font-size: 3vh;
+    border-bottom: 3px solid #d905ff;
+    /* text-decoration-line:underline;
+    text-decoration-color: pink;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px; */
+}
+.signup{
+    color: white;
+    text-decoration: none;
+    font-size: 3vh;
+}
+.forgotpass{
+    color: white;
+    font-size: 3vh;
+}
+.input{
+    border-color: aqua;
+    padding-left: 1vw;
+}
+#signinusername:hover{
+    border-color: red;
+}
+/* createaccount css */
+#createaccount{
+    position: relative;
+    top: -5vh;
+    width: 12vw;
+    height: 6.5vh;
+    padding-left: 3vw;
+    color: white;
+    font-size: 3vh;
+    margin-top: 7vh;
+    background-color: #d905ff;
+    border-radius: 20px;
+    display: none;
+    /* text-align: center; */
+}

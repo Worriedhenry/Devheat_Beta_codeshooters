@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="utilities.css">
+    <link rel="stylesheet" href="verify.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+</head>
+<div class="bg-image"></div>
+<div class="transdabba"></div>
+
+<body>
+    <div class="loginbox sa-center">
+        <p style="font-size: 3vw; color:#c013a9;text-shadow:15px;"><i><b>Flare</b></i></p>
+        <div class="signupin sa-center">
+            <p class="signin" id="signin">SIGN IN </p>
+            <p class="signup" id="signup">SIGN UP</p>
+        </div>
+        <div class="signindetails sa-center" id="signindetails">
+            <input type="text" placeholder="username*" class="input " id="signinusername">
+            <input type="password" name="password" autocomplete="current-password" required=""class="input "id="signinpassword" placeholder="password*">
+            <i class="far fa-eye" id="passwordbutton" style=" cursor: pointer;"></i>
+            <button type="button" id="loginbutton"> Log in</button>
+            <hr>
+            <p class="forgotpass" onclick="forgotpass()"><b>Forgot password??</b></p>
+        </div>
+        
+
+        <div class="singupdetails sb-center" id="singupdetails">
+            
+            <div class="leftsingup">
+                <p class="uppername">
+                <p class="detailname">Email</p><input type="email" id="signupemail" placeholder="Required field*" class="input"></p>
+                <p class="uppername">
+                <p class="detailname">Username</p><input type="text" id="signupusername" placeholder="Required field*" class="input"></p>
+                <p class="uppername">
+                <p class="detailname">Enter password</p><input type="text" id="signuppass"placeholder="Required field*"  class="input"></p>
+                <p class="uppername">
+                <p class="detailname">Confirm Password</p><input type="password"placeholder="Required field*"  id="signuppassconfirm" class="input">
+                </p>
+                </p>
+            </div>
+            <div class="middlegap"></div>
+            <div class="rightsignup">
+                <p class="uppername">
+                <p class="detailname">Full Name</p><input type="text"placeholder="Required field*"  id="signupname" class="input"></p>
+                <p class="uppername">
+                <p class="detailname">Date of Birth</p><input type="date" id="signupdate" class="input"></p>
+                <p class="signupimage uppername">
+                <p class="detailname">What is your favourite food</p>
+                <input type="text"placeholder="Required field*"  id="Security" class="input">
+                </p>
+            </div>
+
+        </div>
+        <button type="button" id="createaccount">Sign up</button>
+   
+    </div>
+    <script src="login.js"></script>
+</body>
+
+</html>

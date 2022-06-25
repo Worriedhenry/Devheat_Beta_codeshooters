@@ -1,0 +1,9 @@
+.loginbox{
+    /* background-color: aqua; */
+    width: 25vw;
+    height: 70vh;
+    margin-top: 12vh;
+}
+body{
+    background-color: blueviolet;
+}
